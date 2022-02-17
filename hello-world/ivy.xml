@@ -4,8 +4,11 @@
 	TODO: Define two configurations: 'compile' and 'test'. The 'compile'
 	configuration should have public visibility while the 'test'
 	configuration should be private.
+	DONE
 	-->
 	<configurations>
+		<conf name="compile" visibility="public" />
+		<conf name="test" visibility="private" />
 	</configurations>
 	
 	<!--
@@ -24,5 +27,7 @@
 	version.
 	-->	
     <dependencies defaultconf="compile">
+		<dependency conf="compile->default" org="log4j" name="log4j" rev="1.2.17"/>
+		<dependency conf="test->default" org="junit" name="junit" rev="4.12"/>
     </dependencies>
 </ivy-module>

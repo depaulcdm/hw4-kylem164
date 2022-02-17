@@ -1,5 +1,5 @@
 # Instructions
-**TODO:** Replace this line with your name and student ID.
+**TODO:** Kyle Mastrangeli: 1814793
 
 **TODO:** Add your screen captures to a new directory called [images](images).
 
@@ -17,6 +17,13 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [15 pts] A screen capture showing a successful build using the Ant+Ivy script.
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Ant+Ivy build.
 - [10 pts] Links to the complete and correct [hello-world/build.xml](hello-world/build.xml) and [hello-world/ivy.xml](hello-world/ivy.xml) files.
+
+![Screen Capture #1](images/Ivy1.PNG)
+![Screen Capture #2](images/Ivy2.PNG)
+![Screen Capture #3](images/Ivy3.PNG)
+![Screen Capture #4](images/Ivy4.PNG)
+- [hello-world/build.xml](hello-world/build.xml)
+- [hello-world/ivy.xml](hello-world/ivy.xml)
 
 # Maven [30 pts]
 - [5 pts] A screen capture showing the version of Maven that you installed and its install directory.
